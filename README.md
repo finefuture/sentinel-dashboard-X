@@ -59,3 +59,8 @@ java -Dserver.port=8080 \
 控制台收到客户端心跳包之后，会在左侧导航栏中显示该客户端信息。如果控制台能够看到客户端的机器信息，则表明客户端接入成功了。
 
 更多：[控制台功能介绍](./Sentinel_Dashboard_Feature.md)。
+
+## 4. 与主分支的区别
+
+这里集成了多数据源，比如Nacos、Apollo以及本地存储通过SentinelApiClient发送变化给客户端的方式，具体修改参见transport包中fetch、publish包，
+使用时可参考[Sentinel与Apollo集成示例](https://github.com/finefuture/Sentinel-Apollo-demo.git) 、 [Sentinel与Nacos集成示例](https://github.com/finefuture/Sentinel-Nacos-demo.git)
