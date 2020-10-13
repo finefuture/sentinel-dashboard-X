@@ -16,7 +16,7 @@
         <nacos.version>1.0.0-RC4</nacos.version>
         <sentinel.version>1.6.0</sentinel.version>
         <fastjson.version>1.2.56</fastjson.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mockito.version>2.21.0</mockito.version>
         <maven.deploy.version>2.8.2</maven.deploy.version>
     </properties>
